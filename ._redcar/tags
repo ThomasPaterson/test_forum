@@ -1,4 +1,4 @@
-1329357247
+1329357503
 AddForeignToPosts	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207213038_add_foreign_to_posts.rb	class AddForeignToPosts 
 AddForeignToTopics	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207213008_add_foreign_to_topics.rb	class AddForeignToTopics 
 AddPermissionsToUsers	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120209025836_add_permissions_to_users.rb	class AddPermissionsToUsers 

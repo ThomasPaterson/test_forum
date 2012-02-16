@@ -104,6 +104,53 @@ xmp {
   font-size: 100%;
 }
 
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+/* Navigation */
+nav {
+  margin-top: 40px;
+  padding-right: -50px;
+  float: right;
+}
+
+nav {
+  background-color: white;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 html,
 body {
   height: 100%;

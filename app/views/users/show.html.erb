@@ -1,7 +1,23 @@
-<% title 'user: ' + @user.username %>  
-<div id="topics">  
-  <strong>topics</strong>  
-  <% @user.topics.each do |topic| %>  
-    <%= link_to topic.name, topic_url(topic.forum.id) %>  
-  <% end %>  
-</div>  
+<% title 'Profile: ' + @user.username %>  
+
+<h1>
+  
+
+<table class="profile" summary="Profile information">
+  <tr>
+    <td class="main">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.username %>
+        
+      </h1>
+      <%= @user.email %>
+      <strong><br>topics</br></strong>
+      <% @user.topics.each do |topic| %>  
+        <%= link_to topic.name, topic_path(topic.id) %>  
+      <% end %>  
+    </td>
+    
+
+  </tr>
+</table>

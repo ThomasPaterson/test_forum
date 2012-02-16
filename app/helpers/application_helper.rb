@@ -24,4 +24,8 @@ def admin_or_owner?(id)
   end  
 end 
 
+  def logo
+    image_tag("rails.png", :alt => "Sample App", :class => "round")
+  end
+
 end

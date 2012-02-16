@@ -1,4 +1,4 @@
-1329350396
+1329357385
 AddForeignToPosts	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207213038_add_foreign_to_posts.rb	class AddForeignToPosts 
 AddForeignToTopics	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207213008_add_foreign_to_topics.rb	class AddForeignToTopics 
 AddPermissionsToUsers	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120209025836_add_permissions_to_users.rb	class AddPermissionsToUsers 
@@ -54,28 +54,28 @@ change	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207213008_add
 create	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/users_controller.rb	  def create
 create	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/topics_controller.rb	  def create
 create	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/sessions_controller.rb	  def create
-create	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def create 
 create	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def create
+create	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def create 
 current_user	C:/Users/user/Documents/cmpt 470/test_forum/lib/controller_authentication.rb	  def current_user
 destroy	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/topics_controller.rb	  def destroy
 destroy	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/sessions_controller.rb	  def destroy
-destroy	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def destroy
 destroy	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def destroy
+destroy	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def destroy
 down	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207212319_create_topics.rb	  def self.down
 down	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207211818_create_posts.rb	  def self.down
 down	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207211703_create_forums.rb	  def self.down
 down	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207210923_create_users.rb	  def self.down
 edit	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/users_controller.rb	  def edit
-edit	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def edit
 edit	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def edit
+edit	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def edit
 encrypt_password	C:/Users/user/Documents/cmpt 470/test_forum/app/models/user.rb	  def encrypt_password(pass)
 error_messages	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/error_messages_helper.rb	    def error_messages(options = {})
 error_messages_for	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/error_messages_helper.rb	  def error_messages_for(*objects)
 getUsername	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/topics_helper.rb	def getUsername(id) 
 included	C:/Users/user/Documents/cmpt 470/test_forum/lib/controller_authentication.rb	  def self.included(controller)
 index	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/topics_controller.rb	  def index
-index	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def index
 index	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def index
+index	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def index
 javascript	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/layout_helper.rb	  def javascript(*args)
 logged_in?	C:/Users/user/Documents/cmpt 470/test_forum/lib/controller_authentication.rb	  def logged_in?
 login_required	C:/Users/user/Documents/cmpt 470/test_forum/lib/controller_authentication.rb	  def login_required
@@ -83,8 +83,8 @@ most_recent_post	C:/Users/user/Documents/cmpt 470/test_forum/app/models/forum.rb
 new	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/users_controller.rb	  def new
 new	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/topics_controller.rb	  def new
 new	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/sessions_controller.rb	  def new
-new	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def new
 new	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def new
+new	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def new
 new_user	C:/Users/user/Documents/cmpt 470/test_forum/test/unit/user_test.rb	  def new_user(attributes = {})
 owner?	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/application_helper.rb	def owner?(id) 
 password	C:/Users/user/Documents/cmpt 470/test_forum/app/models/user.rb	  attr_accessor :password
@@ -93,8 +93,8 @@ redirect_to_target_or_default	C:/Users/user/Documents/cmpt 470/test_forum/lib/co
 setup	C:/Users/user/Documents/cmpt 470/test_forum/test/unit/user_test.rb	  def setup
 show	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/users_controller.rb	  def show 
 show	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/topics_controller.rb	  def show
-show	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def show
 show	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def show
+show	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def show
 show_title?	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/layout_helper.rb	  def show_title?
 store_target_location	C:/Users/user/Documents/cmpt 470/test_forum/lib/controller_authentication.rb	  def store_target_location
 stylesheet	C:/Users/user/Documents/cmpt 470/test_forum/app/helpers/layout_helper.rb	  def stylesheet(*args)
@@ -161,5 +161,5 @@ up	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207211703_create_
 up	C:/Users/user/Documents/cmpt 470/test_forum/db/migrate/20120207210923_create_users.rb	  def self.up
 update	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/users_controller.rb	  def update
 update	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/topics_controller.rb	  def update
-update	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def update 
 update	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/forums_controller.rb	  def update
+update	C:/Users/user/Documents/cmpt 470/test_forum/app/controllers/posts_controller.rb	  def update 

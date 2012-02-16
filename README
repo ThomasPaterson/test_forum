@@ -1,0 +1,9 @@
+TODO before presentation:
+
+- add user profiles
+- add navigation between topics
+- add subtopic capabilities to the forum model
+- add in a graphical notice if a topic has any new posts that the current user hasn't read
+- add in access to a user list, for admins, that allows the admin to look at users, their posts
+- add in the ability for admins to delete users, create new admins
+- better stylesheets for in topics

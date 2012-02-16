@@ -1,0 +1,12 @@
+--- 
+cursor_positions: 
+  - :path: app/models/user.rb
+    :cursor_offset: 257
+    :timestamp: 2012-02-14 22:45:17.276000 -08:00
+  - :path: lib/controller_authentication.rb
+    :cursor_offset: 702
+    :timestamp: 2012-02-14 22:45:17.955000 -08:00
+  - :path: README
+    :cursor_offset: 424
+    :timestamp: 2012-02-14 23:24:44.446000 -08:00
+files_to_retain: 0

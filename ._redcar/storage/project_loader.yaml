@@ -1,0 +1,5 @@
+--- 
+open_files: 
+  - app/models/user.rb
+  - lib/controller_authentication.rb
+  - README
